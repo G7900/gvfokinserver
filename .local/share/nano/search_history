@@ -1,0 +1,12 @@
+trl
+rtl
+8000
+supabase-kong
+KONG_HTTP_PORT=8000
+KONG_HTTPS_PORT=8443
+studio
+port
+ports
+
+
+

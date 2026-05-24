@@ -1,0 +1,11 @@
+tunnel: 27b2dd47-d49f-48b7-ae03-93330d898734
+credentials-file: /home/gv/.cloudflared/27b2dd47-d49f-48b7-ae03-93330d898734.json
+
+ingress:
+  - hostname: automation.gvfokinserver.store
+    service: http://localhost:5678
+
+  - hostname: supabase.gvfokinserver.store
+    service: http://localhost:3001
+
+  - service: http_status:404
